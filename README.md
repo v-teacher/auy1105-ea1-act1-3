@@ -6,24 +6,24 @@
 
 ### 1. Iniciar el Laboratorio Learner Lab en AWS Academy
 
-1. Accede a **AWS Academy** y selecciona el curso correspondiente.  
-2. Inicia el laboratorio Learner Lab haciendo clic en **Start Lab**.  
+1. Accede a **AWS Academy** y selecciona el curso correspondiente.
+2. Inicia el laboratorio Learner Lab haciendo clic en **Start Lab**.
 3. Accede a la consola de AWS utilizando las credenciales temporales proporcionadas.
 
 ### 2. Crear una Instancia EC2
 
-1. En la consola de AWS, ve al servicio **EC2**.  
+1. En la consola de AWS, ve al servicio **EC2**.
 2. Haz clic en **Launch Instance** y configura los siguientes parámetros:
    - Nombre: `Infraestructura-Actividad`
    - Tipo de instancia: `t2.micro` (o el disponible en el lab)
    - AMI: **Amazon Linux 2**
-   - Configura el almacenamiento y revisa las reglas de seguridad (permitir SSH, puerto 22).  
+   - Configura el almacenamiento y revisa las reglas de seguridad (permitir SSH, puerto 22).
 
 3. Haz clic en **Launch** y selecciona o crea un par de claves para conectarte.
 
 ### 3. Conectarse a la Instancia EC2
 
-1. Una vez que la instancia esté corriendo, haz clic en **Connect** y sigue las instrucciones para conectarte mediante SSH.  
+1. Una vez que la instancia esté corriendo, haz clic en **Connect** y sigue las instrucciones para conectarte mediante SSH.
 2. Usa el siguiente comando (ajustando el archivo de clave):
 
 ```bash
@@ -52,7 +52,7 @@ Para mas detalles de como hacerlo, [GitHub Docs: Clone a Repository](https://doc
 
 2. Navegar a la Carpeta ACT1.2
 ```bash
-cd AUY1105-Infraestructura-como-codigo-II/ACT1.3
+cd auy1105-ea1-act1-3
 ```
 
 3. Ejecutar el comando terraform-docs y Analizar Resultados
